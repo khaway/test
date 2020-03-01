@@ -1,7 +1,6 @@
 const mix = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 
-
 mix.options({
     processCssUrls: false,
     postCss: [
@@ -10,4 +9,5 @@ mix.options({
 })
 
 mix.postCss('resources/postcss/style.css', 'public/css')
+mix.js('resources/js/app.js', 'public/js')
 

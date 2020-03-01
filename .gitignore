@@ -1,4 +1,7 @@
 /node_modules
 mix-manifest.json
-/public/css
 yarn.lock
+/public/img
+/public/fonts
+/.idea
+package-lock.json
