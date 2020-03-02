@@ -13965,6 +13965,39 @@ video {
   transition-duration: 1000ms;
 }
 
+#sidebar {
+  width: 256px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: -256px;
+  transition: left 0.5s ease;
+}
+
+#sidebar.visible {
+  left: 0px;
+  transition: left 0.7s ease;
+}
+
+#sidebar-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+  margin: 20px;
+  position: absolute;
+  right: -60px;
+  top: 0px;
+}
+
+#sidebar-btn span {
+}
+
+#sidebar-btn span:nth-child(2) {
+  width: 75%;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -67340,4 +67373,3 @@ video {
     transition-duration: 1000ms;
   }
 }
-
