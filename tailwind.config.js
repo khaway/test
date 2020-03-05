@@ -1,13 +1,14 @@
 module.exports = {
   prefix: '',
-  important: false,
+  important: true,
   separator: ':',
   theme: {
     screens: {
+      xsm:'320px',
       sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      md: '1024px',
+      lg: '1224px',
+      xl: '1480px',
     },
     colors: {
       transparent: 'transparent',
@@ -146,6 +147,7 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '400': '25rem',
     },
     backgroundColor: theme => theme('colors'),
     backgroundPosition: {
@@ -273,6 +275,7 @@ module.exports = {
     inset: {
       '0': '0',
       auto: 'auto',
+      '1/2': '50%',
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -310,6 +313,10 @@ module.exports = {
     }),
     maxHeight: {
       full: '100%',
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
       screen: '100vh',
     },
     maxWidth: (theme, { breakpoints }) => ({

@@ -1,0 +1,40 @@
+
+/** Hover-related CSS **/
+#examples {
+
+}
+#examples h1 {
+}
+#examples .example {
+}
+#examples .example .hover {
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+#examples .example .hover:before, #examples .example .hover:after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    width: 0px;
+    height: 2px;
+    margin: 2px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.35s;
+    opacity: 0;
+    background-color: #FF4500;
+}
+#examples .example .hover.hover-1:before, #examples .example .hover.hover-1:after {
+    left: 0;
+}
+#examples .example:hover {
+    cursor: pointer;
+}
+#examples .example:hover .hover:before, #examples .example:hover .hover:after {
+    width: 100%;
+    opacity: 1;
+}
+#examples .example:hover .hover.hover-3:before, #examples .example:hover .hover.hover-3:after, #examples .example:hover .hover.hover-4:before, #examples .example:hover .hover.hover-4:after {
+    width: 50%;
+}

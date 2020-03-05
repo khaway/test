@@ -4,12 +4,20 @@
 
 @tailwind utilities;
 
+.bgBoxShadow {
+    box-shadow: inset 0px 0px 20px 30px rgba(0,0,0,0.1);
+}
+
+.bgimage {
+    background-image: url(../../public/img/Banksy_4.jpg);
+}
+
 #sidebar {
-    width: 256px;
+    width: 400px;
     position: absolute;
     height: 100%;
     top: 0;
-    left: -256px;
+    left: -300px;
     transition: left 0.5s ease;
 }
 
@@ -19,15 +27,7 @@
 }
 
 #sidebar-btn {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 15px;
     cursor: pointer;
-    margin: 20px;
-    position: absolute;
-    right: -60px;
-    top: 0px;
 }
 
 #sidebar-btn span {
