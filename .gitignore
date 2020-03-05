@@ -1,8 +1,6 @@
 /node_modules
 mix-manifest.json
 yarn.lock
-/public/img
-/public/fonts
 /.idea
 package-lock.json
 /public/js
