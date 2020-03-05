@@ -13,12 +13,6 @@
         "cross-env": "^5.1",
         "jquery": "^3.4.1",
         "laravel-mix": "^5.0.1",
-        "tailwind": "^4.0.0",
-        "tailwindcss": "^1.2.0",
-        "vue": "^2.6.11"
-
-    },
-    "devDependencies": {
-        "vue-template-compiler": "^2.6.11"
+        "tailwindcss": "^1.2.0"
     }
 }
